@@ -32,7 +32,24 @@
 
 
 /* Heading Styles */
-
+ h1{
+	 font-size:2.2em;
+	 font-family: Nobile, Verdana, Geneva, sans-serif;
+    letter-spacing: 0.2em;
+	}
+ 
+ 
+    article#tss_coaches h1{
+        font-size: 2.5em;
+		color: hsl(27, 82%, 85%); 
+        background-color: hsl(27, 6%, 21%);
+		/*padding-left: 10px;*/
+    }
+	
+	article.coach_bio h2{
+		font-size: 1.6em;
+		color: rgb(240, 125, 0);
+	}
 
 
 /* Blockquote Styles */
@@ -48,9 +65,19 @@
 /* Paragraph Styles */
 
 
-
 /* List Styles */
 
+
+/* Footer Styles */
+	
+	body > footer address {
+		background-color: rgb(222, 128, 60);
+		color: white;
+		color: rbga(255, 255, 255, 0.6);
+		font: normal small-caps bold 0.9em/3em
+			Nobile, Verdana, Geneva, sans-serif;
+		text-align: center;
+	}
 
 
 
