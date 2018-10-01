@@ -1,0 +1,91 @@
+﻿@charset "utf-8";
+
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Bike the Mountains Tour Style Sheet
+   Author: Jason and Lauren
+   Date:   9/28/2018
+   
+   Filename: mw_styles.css
+
+*/
+
+
+/* Structural Styles */
+	html{
+		background-color: rgb(173, 189, 227);
+	}
+	
+	body{
+		background-color: rgb(227, 210, 173);
+		font-family: Century Gothic, sans-serif;
+	}
+	
+	footer{
+		background-color: rgb(208, 184, 109);
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	address{
+		text-decoration: none;
+		font-size: 0.9em;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+/* Heading Styles */
+
+	h1, h2{ 
+		font-weight: normal;
+	}
+
+/* Navigation Styles */
+
+	nav > ul {
+		list-style-type: none;
+		line-height: 2em;
+		font-size: 0.9em;
+	}
+	
+	nav > ul > li > a:visited, nav > ul > li > a:unvisited;{
+		text-decoration: none;
+		color: rgb(43, 59, 125);
+	}
+	
+	nav > ul > li > a:active, nav > ul > li > a:hover; {
+		color: rgb(212, 35, 35);
+	}
+
+/* Article Styles */
+
+	#tour_summary h1{
+		font-size: 2.2em;
+		letter-spacing:0.2em;
+	}
+	
+	#tour_summary {
+		font-size: 1.1em;
+	}
+
+/* Aside Styles */
+
+	#tour_itinerary h1{
+		font-size:1.2em;
+	}
+	
+	#tour_itinerary h2{
+		font-size:0.9em;
+	}
+	
+	#tour_itinerary {
+		font-size:0.8em;
+	}
+
+/* Blockquote Styles */
+
